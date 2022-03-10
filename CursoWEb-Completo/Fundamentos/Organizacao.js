@@ -1,0 +1,1 @@
+console.log("sentença de Codigo");
