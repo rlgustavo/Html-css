@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midias Dinamica</title>
+</head>
+<body>
+  <h1>Imagem Dinamica</h1>
+  <p>Tente abrir esse site em varios dispositivos diferentes</p>
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png">
+    <img src="imagens/foto-grande.png" alt="Imagem flexivel">  
+  </picture>
+  <h1>Reproduzindo o Audio</h1>
+  <p>Vamos aprender a reproduzir audios</p>
+  <audio preload="metadata" src="Audios/musica-teste.mp4" controls>Audio 01</audio>
+
+  <p>
+    <audio preload="metadata" autoplay controls loop>
+        <source srcset="Audios/teste01.mp3" type="audio/mpeg">
+        <source srcset="Audios/teste01.ogg" type="audio/ogg">
+        <source srcset="Audios/teste01.wav" type="audio/wav">
+        <p>Infelizmente não conseguimos baixar o seu video <a href="Audios/teste01.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+  </p>
+  
+</body>
+</html>
