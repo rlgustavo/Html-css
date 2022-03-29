@@ -8,4 +8,10 @@ body {
 
 h1 {
   color: green;
+  text-decoration: underline;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
 }
