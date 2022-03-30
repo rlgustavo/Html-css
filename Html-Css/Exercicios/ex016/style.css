@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1 {
+  background-color: rgb(206, 126, 126);
+  color: #431c68;
+}
+
+h2 {
+  background-color: rgb(202, 10, 10);
+  color: #2ce70681;
+}
+
+p {
+  background-color: hsla(180, 90%, 12%, 0.5);
+  color: rgb(16, 16, 78);
+}
